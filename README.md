@@ -14,13 +14,13 @@ A clean, intuitive todo application built with React and TypeScript, featuring a
 - Responsive design with yellow theme
 - Fully typed with TypeScript
 
-## 🛠️ Installation
+##  Installation
 
 1. Ensure you have Node.js (v14 or higher) and npm installed
 2. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/yellow-todo-app.git
-   cd yellow-todo-app
+   cd TodoApp
    ```
 3. Install dependencies:
    ```bash
@@ -33,7 +33,7 @@ A clean, intuitive todo application built with React and TypeScript, featuring a
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 1. **Yellow Color Scheme**
    - Used a warm, friendly yellow palette to create an inviting and energetic user interface
@@ -66,7 +66,7 @@ A clean, intuitive todo application built with React and TypeScript, featuring a
    - Implemented error handling for localStorage operations
 
 
-## 📝 Notes for Developers
+##  Notes for Developers
 
 - The app uses Tailwind CSS for styling. Make sure your build process is configured for Tailwind.
 - Icons are from the lucide-react library.
@@ -75,6 +75,6 @@ A clean, intuitive todo application built with React and TypeScript, featuring a
 
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License(for more info) - oguntimehins@gmail.com .
