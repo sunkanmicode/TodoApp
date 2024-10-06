@@ -19,7 +19,7 @@ A clean, intuitive todo application built with React and TypeScript, featuring a
 1. Ensure you have Node.js (v14 or higher) and npm installed
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yellow-todo-app.git
+   git clone https://github.com/sunkanmicode/TodoApp
    cd TodoApp
    ```
 3. Install dependencies:
