@@ -25,9 +25,8 @@ const TodoList: React.FC<TodoListProps> = ({
       {todos.map((todo) => (
         <div
           key={todo.id}
-          className={`flex items-center justify-between p-4 rounded-lg ${
-            todo.isComplete ? "bg-yellow-50" : "bg-white"
-          } border border-yellow-200 shadow-sm transition-all duration-200`}
+          className={`flex items-center justify-between p-4 rounded-lg
+            bg-white border border-yellow-200 shadow-sm transition-all duration-200`}
         >
           <div className="flex items-center flex-grow gap-3">
             <div className="flex items-center h-5">
@@ -61,9 +60,8 @@ const TodoList: React.FC<TodoListProps> = ({
               </div>
             ) : (
               <span
-                className={`flex-grow ${
-                  todo.isComplete ? "line-through text-gray-500" : ""
-                }`}
+                style={{ color: todo.isComplete ? "gray" : todo.color }}
+                className={`flex-grow ${todo.isComplete ? "line-through" : ""}`}
               >
                 {todo.task}
               </span>

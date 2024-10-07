@@ -3,6 +3,7 @@ export interface Todo {
     task: string;
     isComplete: boolean;
     isEditing: boolean;
+    color: string;
   }
   
   export interface CreateTodoProps {
